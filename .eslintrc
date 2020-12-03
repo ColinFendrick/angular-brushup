@@ -72,6 +72,19 @@
       "max": 2,
       "maxEOF": 0
     }],
+    "no-empty-function": "off",
+    "@typescript-eslint/no-empty-function": [
+      "error",
+      {
+        "allow": [
+          "methods",
+          "constructors",
+          "protected-constructors",
+          "private-constructors",
+          "decoratedFunctions"
+        ]
+      }
+    ],
     "space-before-function-paren": "warn",
     "eqeqeq": "error",
     "space-infix-ops": [
