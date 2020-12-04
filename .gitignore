@@ -44,3 +44,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Add the databse so we prevent putting a huge set of dummy data in git
+**/db.json
